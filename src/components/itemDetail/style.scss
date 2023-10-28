@@ -1,0 +1,58 @@
+.contenedor-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .detalles-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-viaje{
+        color: white;
+        font-size: 34px;
+    }
+    .titulo-detalles{
+        font-size: 48px;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+    .contenedor-datos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 900px;
+        p{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        span{
+            font-weight: 600;
+        }
+    }
+    .cantidad-input {
+        width: 50px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+    label {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    .tit-desc{
+        font-weight: 600;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .error-mensaje {
+        color: red;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
